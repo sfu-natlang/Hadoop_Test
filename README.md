@@ -21,8 +21,9 @@ hadoop fs -copyFromLocal <local_path> <HDFS_path>
 hadoop fs -rm <HDFS_path>
 
 ```
-## Adding Spake module
+## Adding Spark module
 ```
+module load natlang
 module load NL/HADOOP/SPARK/1.0.0
 ```
 
