@@ -40,7 +40,7 @@ spark-shell
 ```
 
 ```
-val myTextFile = sc.textFile("<local or hadf file>")
+val myTextFile = sc.textFile("<local or hdfs file>")
 myTextFile.count()
 myTextFile.first()
 val linesWithSpark = myTextFile.filter(line => line.contains("Spark"))
