@@ -59,4 +59,4 @@ ssh -C2qTnN -D 8080 username@remote_machine.com
 
 After this step you can view hadoop info page in 
 
-> rcg-hadoop-01.rcg.sfu.ca:8088 
+> rcg-hadoop-01.rcg.sfu.ca:8080
