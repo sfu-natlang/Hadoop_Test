@@ -54,9 +54,12 @@ The following line will start the ssh client and connect to username@remote_mach
 ssh -C2qTnN -D 8080 username@hadoop.rcg.sfu.ca
 ```
 
+After this step you can view hadoop info page in 
+
+> hadoop.rcg.sfu.ca:8080
+
+For more information:
+
 > https://calomel.org/firefox_ssh_proxy.html
 
 
-After this step you can view hadoop info page in 
-
-> rcg-hadoop-01.rcg.sfu.ca:8080
